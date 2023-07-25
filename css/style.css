@@ -1,0 +1,59 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 970px;
+    height: 500px; /*TEMP*/
+    margin: 0 auto;
+    color: white;
+}
+
+.top-content {
+    background-color: #245076;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+header img {
+    width: 375px;
+}
+
+#header-right {
+    width: 250px;
+}
+
+header a {
+    color: yellow;
+}
+
+header form {
+    background-color: gray;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 15px 36px;
+    text-align: center;
+    box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+}
+
+form input {
+    width: 120px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #245076;
+    padding: 6px;
+    border-radius: 5px;
+}
