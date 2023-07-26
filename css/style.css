@@ -8,7 +8,7 @@
 
 .container {
     width: 970px;
-    height: 500px; /*TEMP*/
+    /* height: 500px; TEMP */
     margin: 0 auto;
     color: white;
 }
@@ -60,7 +60,7 @@ form button {
 
 nav {
     width: 800px;
-    height: 50px; /*TEMP*/
+    height: 50px;
     background-color: #427cad;
     margin: 0 auto;
     border-radius: 10px;
@@ -125,4 +125,32 @@ nav a {
 #zen{
     color: white;
     font-style: normal;
+}
+
+.middle-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+
+.content-python {
+    border-top: 4px solid #427cad;
+    width: 400px;
+    /* height: 200px; TEMP */
+}
+
+.content-python h3 {
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.content-python ul {
+    margin: 10px 0;
+    list-style: square;
+}
+
+.blue {
+    color: #427cad;
 }
