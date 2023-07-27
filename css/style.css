@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -146,6 +146,10 @@ nav a {
     font-weight: normal;
 }
 
+.content-python p {
+    line-height: 15px;
+}
+
 .content-python ul {
     margin: 10px 0;
     list-style: square;
@@ -153,4 +157,34 @@ nav a {
 
 .blue {
     color: #427cad;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#104d7c+0,3373aa+100 */
+    background: #104d7c; /* Old browsers */
+    background: -moz-linear-gradient(top,  #104d7c 0%, #3373aa 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #104d7c 0%,#3373aa 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #104d7c 0%,#3373aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#104d7c', endColorstr='#3373aa',GradientType=0 ); /* IE6-9 */
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+
+footer ul a {
+    color: #7fb2de;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color: #7fb2de;
+    margin-top: 20px;
 }
