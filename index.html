@@ -13,14 +13,15 @@
     <div class="container">
         <section class="top-content">
             <header>
-                <img src="img/python.png" alt="Logo Python">
+                <img onclick="cambioParrafo()" src="img/python.png" alt="Logo Python">
                 <div id="header-right">
                     <p>
-                        Text Size: <a href="#">Normal</a> | <a href="#">Large</a>
+                        Text Size: <a href="#" onclick="cambioLetra(this)">Normal</a> | 
+                        <a href="#" onclick="cambioLetra(this)">Large</a>
                     </p>
                     <form>
                         <input type="text" placeholder="Search">
-                        <button>GO</button>
+                        <button type="button" onclick="buscar()" >GO</button>
                     </form>
                 </div>
             </header>
@@ -36,22 +37,22 @@
             </nav>
             <div class="row">
                 <ul class="page_guide">
-                    <li><a href="#">Docs</a></li>
+                    <li><a href="#" onclick="saluda()">Docs</a></li>
                     <li><a href="#">Audio/Visual talks</a></li>
                     <li><a href="#">Beginner's guide</a></li>
                     <li><a href="#">Developer's guide</a></li>
                     <li><a href="#">PEP Index</a></li>
                     <li><a href="#">Python Books</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li onclick="eliminar(this)"><a href="#">FAQ</a></li>
                 </ul>
                 <div>
-                    <p>First appearing in 1991, Python is a general-purpose, high-level, interpreted programming language whise design focus emphasizes code readability. Whether for processing/analyzing data to powering many well-known applications.Python is not only a great language for new programmers but also powerful engough fo seasoned developers building whatever they can think of.</p>
+                    <p id="parrafo">First appearing in 1991, Python is a general-purpose, high-level, interpreted programming language whise design focus emphasizes code readability. Whether for processing/analyzing data to powering many well-known applications.Python is not only a great language for new programmers but also powerful engough fo seasoned developers building whatever they can think of.</p>
                     <ul>
-                        <li>Beatiful is better than ugly;</li>
-                        <li>Explicit is better than implicit;</li>
-                        <li>Simple is better than complex;</li>
-                        <li>Complex is better than complicated;</li>
-                        <li>Readability counts;</li>
+                        <li ondblclick="cambioFrase(this)">Beatiful is better than ugly;</li>
+                        <li ondblclick="cambioFrase(this)">Explicit is better than implicit;</li>
+                        <li ondblclick="cambioFrase(this)">Simple is better than complex;</li>
+                        <li ondblclick="cambioFrase(this)">Complex is better than complicated;</li>
+                        <li ondblclick="cambioFrase(this)">Readability counts;</li>
                         <li><span id="zen">The Zen of Python</li>
                     </ul>
                 </div>
@@ -59,7 +60,7 @@
         </section>
         <section class="middle-content">
             <div class="content-python">
-                <h3>Getting Started</h3>
+                <h3 onclick="cambiaColor(this)">Getting Started</h3>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea doloremque eveniet molestias aspernatur recusandae reprehenderit libero voluptatibus aliquid ipsa quod! Repellat omnis necessitatibus fugiat neque aliquam voluptatum dolor maiores qui.
                 </p>
@@ -116,5 +117,6 @@
             </p>
         </footer>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
